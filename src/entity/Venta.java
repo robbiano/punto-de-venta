@@ -1,12 +1,12 @@
 package entity;
 
 public class Venta {
-    long id;
-    double total;
-    String medioDePago;
-    Cliente cliente;
-    Producto producto;
-    public Vendedor vendedor;
+    private  long id;
+    private  double total;
+    private  String medioDePago;
+    private   Cliente cliente;
+    private  Producto producto;
+    private Vendedor vendedor;
 
     public Venta(long id, double total, String medioDePago, Cliente cliente, Producto producto, Vendedor vendedor) {
         this.id = id;

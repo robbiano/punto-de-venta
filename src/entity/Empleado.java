@@ -1,10 +1,10 @@
 package entity;
 
 public class Empleado {
-    int id;
-    String nombre;
-    String apellido;
-    int dni;
+    private int id;
+    private String nombre;
+    private  String apellido;
+    private  int dni;
 
     public Empleado(int id, String nombre, String apellido, int dni) {
         this.id = id;

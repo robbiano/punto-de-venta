@@ -2,9 +2,9 @@ package entity;
 
 public class Producto {
 
-    int id;
-    public String descripcion;
-    public double valor;
+    private int id;
+    private String descripcion;
+    private double valor;
 
     public Producto(int id, String descripcion, double valor) {
         this.id = id;
